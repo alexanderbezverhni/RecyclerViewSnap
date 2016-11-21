@@ -78,7 +78,7 @@ public class GravitySnapHelper extends LinearSnapHelper {
         if (recyclerView != null) {
             if (mGravity == Gravity.START || mGravity == Gravity.END) {
                 mIsRtlHorizontal
-                        = recyclerView.getContext().getResources().getBoolean(R.bool.is_rtl);
+                        = recyclerView.getContext().getResources().getBoolean(R.bool.com_github_rubensousa_gravitysnaphelper_is_rtl);
             }
             if (mSnapListener != null) {
                 recyclerView.addOnScrollListener(mScrollListener);
